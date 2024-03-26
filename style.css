@@ -105,3 +105,17 @@ nav{
     color: white;
 }
 
+footer{
+    height: 3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+

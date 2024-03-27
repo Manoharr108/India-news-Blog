@@ -27,7 +27,7 @@ fetch(apiUrl)
           <h7 style="margin:10px 0">${data.results[i].pubDate}</h7>
           <h5><br></h5>
           <p class="card-text" maxlength="300">${data.results[i].description}</p>
-          <button "><a href="${data.results[i].source_url}" style="text-decoration:none">Visit here</a></button>
+          <button "><a href="${data.results[i].link}" style="text-decoration:none">Visit here</a></button>
         </div>
       </div>`
 }

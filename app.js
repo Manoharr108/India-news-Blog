@@ -22,12 +22,12 @@ fetch(apiUrl)
         <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="${data.results[i].image_url}" alt="Card image cap" style="width: 18rem;height: 10rem; border-radius:10px">
         <div class="card-body">
-          <h5 class="card-title">${data.results[i].title}</h5>
+          <h5 class="card-title" href="${data.results[i].link}>${data.results[i].title}</h5>
           <h5><br></h5>
           <h7 style="margin:10px 0">${data.results[i].pubDate}</h7>
           <h5><br></h5>
           <p class="card-text" maxlength="300">${data.results[i].description}</p>
-          <button "><a href="${data.results[i].link}" style="text-decoration:none">Visit here</a></button>
+          <button><a href="${data.results[i].link}" style="text-decoration:none">Visit here</a></button>
         </div>
       </div>`
 }
